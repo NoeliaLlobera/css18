@@ -3,9 +3,11 @@
 }
 h1{
     font-family: sans-serif;
+    text-align: center;
 }
 h2{
     font-style: italic;
+    margin: 10px 40px;
 }
 p{
     font-size: 20px;
@@ -21,6 +23,7 @@ div{
 .flex{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .red{
     background-color: rgb(250, 0, 0);
@@ -39,4 +42,13 @@ div{
 }
 .yellow{
     background-color: rgb(255, 255, 0)
+}
+.contenedor{
+    width: 500px;
+    margin: 0px auto;
+    background-color: initial;
+    position: relative;
+    height: initial;
+    margin: 0px auto;
+
 }
